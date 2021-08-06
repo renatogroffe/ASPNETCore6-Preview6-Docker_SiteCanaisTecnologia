@@ -1,0 +1,53 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h3>Canais de Tecnologia com Conteúdos Gratuitos</h3>
+    <h4>@TempData["Saudacao"]</h4>
+
+    <table class="table table-hover" style="text-align: left;">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Canal</th>
+                <th scope="col">Temas principais</th>
+                <th scope="col">Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Canal .NET</td>
+                <td>.NET, ASP.NET Core, Xamarin, Azure</td>
+                <td>
+                    <a href="https://www.youtube.com/canaldotnet" target="_blank">
+                        https://www.youtube.com/canaldotnet
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Coding Night</td>
+                <td>Discussões sobre tecnologias, Open Source</td>
+                <td>
+                    <a href="https://www.youtube.com/codingnight" target="_blank">
+                        https://www.youtube.com/codingnight
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Azure na Prática</td>
+                <td>Microsoft Azure, DevOps</td>
+                <td>
+                    <a href="https://www.youtube.com/azurenapratica" target="_blank">
+                        https://www.youtube.com/azurenapratica
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
